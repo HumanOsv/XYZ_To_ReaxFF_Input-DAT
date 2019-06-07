@@ -1,5 +1,10 @@
 #!/usr/bin/perl
 
+#
+# Write code: 
+#            Osvaldo Yañez Osses
+#            contact: osvyanezosses@gmail.com
+
 use strict;
 use warnings;
 
