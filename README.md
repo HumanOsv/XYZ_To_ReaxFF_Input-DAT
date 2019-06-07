@@ -10,7 +10,7 @@ If you want change options:
  
        my $steps_lammps      = "500";
 
-* Run Molecular Dynamics (time)
+* Run Molecular Dynamics (time fs)
 
        my $steps_run_lammps  = "50000";
 
