@@ -21,12 +21,13 @@ Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lamm
 
     • ReaxFF file          : Reactive MD-force field file of Lammps.
 
+*NOTE: Running Lammps Software see more (https://lammps.sandia.gov/doc/Run_basics.html)*
 
 After a successful run the program will make several output files named as:
 
-            NameFileXYZ-reaxff.in  (Config file Lammps)
+    * NameFileXYZ-reaxff.in  : Config file Lammps.
             
-            NameFileXYZ-reaxff.dat (Coords file Lammps)
+    * NameFileXYZ-reaxff.dat : Coords file Lammps.
             
 **If you want change options:**
 
