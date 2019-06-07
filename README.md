@@ -39,8 +39,8 @@ After a successful run the program will make several output files named as:
 
 * Box system and Periodic Boundary conditions
 
-       my $Box_x = 15;
+       my $Box_x = 30;
 
-       my $Box_y = 15;
+       my $Box_y = 30;
 
-       my $Box_z = 15;
+       my $Box_z = 30;
