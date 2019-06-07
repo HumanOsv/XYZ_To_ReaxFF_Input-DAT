@@ -4,11 +4,13 @@ Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lamm
 
 * Must be run with:
 
-    Usage:
-          perl BuildInputReaxFF.pl [XYZMol-file]
+      Usage:
+          
+            perl BuildInputReaxFF.pl [XYZMol-file]
     
-    Example (See Folder ./Example/)
-          perl BuildInputReaxFF.pl CuC74N8H80O8.xyz
+      Example (See Folder ./Example/)
+          
+            perl BuildInputReaxFF.pl CuC74N8H80O8.xyz
     
 
 If you want change options:
