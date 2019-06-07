@@ -1,6 +1,6 @@
 # Build Input file and Cartesian file of Lammps-ReaxFF
 
-Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lammps 
+Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lammps.
 
 **Must be run with:**
 
