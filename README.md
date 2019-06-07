@@ -1,5 +1,15 @@
 # Build Input file and Cartesian file of Lammps
 
+Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lammps 
+
+* Must be run with:
+
+    Usage:
+          perl BuildInputReaxFF.pl [XYZMol-file]
+    
+    Example (See Folder ./Example/)
+          perl BuildInputReaxFF.pl CuC74N8H80O8.xyz
+    
 
 If you want change options:
 * Convergence criteria
