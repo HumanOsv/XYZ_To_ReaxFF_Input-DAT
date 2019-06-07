@@ -11,7 +11,16 @@ Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lamm
       Example (See Folder ./Example/)
           
             perl BuildInputReaxFF.pl CuC74N8H80O8.xyz
-    
+
+
+*NOTE: To run BuildInputReaxFF.pl the following files are necessary in the working directory:*
+
+    • XYZMol-file          : XYZMol file.
+
+    • BuildInputReaxFF.pl  : The executable file.
+
+    • ReaxFF file          : Reactive MD-force field file of Lammps.
+
 
 After a successful run the program will make several output files named as:
 
