@@ -1,0 +1,34 @@
+# REAX FF parameters
+#
+dimension       3
+boundary        p p p
+units		    real
+
+atom_style      charge
+atom_modify     map array sort 0 0.0
+
+read_data	    interface-reaxff.dat
+
+pair_style	    reax/c NULL
+pair_coeff	    * * ffield.reax.Biomolecules H O C N Cu 
+neighbor	    2 bin
+neigh_modify	every 10 check yes
+fix             2 all qeq/reax 1 0.0 10.0 1e-6 reax/c
+
+# should equilibrate much longer in practice
+#
+fix             1 all nvt temp 300 300 10
+#fix		        1 all npt temp 273.0 273.0 10.0 iso 1.0 1. 2000.0
+timestep        0.2
+thermo_style    custom step temp epair pe ke etotal 
+thermo          1
+#
+#dump             1 all custom 100 .\interface-reaxff.xyz element x y z
+dump             1 all custom 100 interface-reaxff.lammpstrj id element x y z q
+dump_modify      1 element H O C N Cu 
+
+# 2000 step of minimize
+minimize           1e-06 1e-06 2000 2000
+
+# 1 ns
+run                1000000
