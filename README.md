@@ -2,7 +2,7 @@
 
 Convert XYZMol Format file  to ReaxFF DAT Format file and Build config file Lammps.
 
-**Must be run with:**
+**- Must be run with:**
 
       Usage:
           
@@ -29,7 +29,7 @@ After a successful run the program will make several output files named as:
             
     * NameFileXYZ-reaxff.dat : Coords file Lammps.
             
-**If you want change options:**
+**- If you want change options:**
 
 * Convergence criteria
 
