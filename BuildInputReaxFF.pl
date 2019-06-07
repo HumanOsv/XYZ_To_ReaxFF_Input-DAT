@@ -14,9 +14,9 @@ my $steps_run_lammps  = "50000";
 # Force Field ReaxFF Lammps
 my $init_relax        = "ffield.reax.Biomolecules";
 # Box system and Periodic Boundary conditions
-my $Box_x = 15;
-my $Box_y = 15;
-my $Box_z = 15;
+my $Box_x = 30;
+my $Box_y = 30;
+my $Box_z = 30;
 
 
 
